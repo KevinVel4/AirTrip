@@ -144,7 +144,7 @@ html {
 
 /* Listings */
 .listings {
-    margin: 1rem 0;
+    padding: 1rem 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -181,7 +181,8 @@ img {
 /* Featured */
 .featured {
     width: 100%;
-    padding: 4rem 0;
+    padding: 1rem 4rem;
+    
 }
 
 .featured .title {
@@ -222,7 +223,7 @@ img {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #eeeeee;
-    padding: 1rem 0;
+    padding: 1rem 4rem;
 }
 
 .footer .left-menu, .right-menu {
