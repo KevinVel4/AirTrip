@@ -144,7 +144,7 @@ html {
 
 /* Listings */
 .listings {
-    padding: 1rem 4rem;
+    margin: 1rem 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -181,8 +181,7 @@ img {
 /* Featured */
 .featured {
     width: 100%;
-    padding: 1rem 4rem;
-    
+    padding: 4rem 0;
 }
 
 .featured .title {
@@ -223,7 +222,7 @@ img {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #eeeeee;
-    padding: 1rem 4rem;
+    padding: 1rem 0;
 }
 
 .footer .left-menu, .right-menu {
@@ -251,19 +250,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 16px;
-    padding: 1rem;
   }
 
   .navbar {
     grid-template-columns: repeat(2, 1fr);
     border-bottom: none;
-    padding: 1rem;
-  }
-  
-
-  .sort-bar {
-    padding: 1rem;
   }
 
   .navbar .search {
@@ -305,30 +296,17 @@ img {
   .listings {
       grid-template-columns: repeat(3, 1fr);
   }
-
 }
+
 @media screen and (max-width: 550px) {
   /* Top Bar */
   .top-bar .intro,
   p {
     font-size: 0.8rem;
-    margin-top: 16px;
-    padding: 1rem;
-  }
-
-  .navbar {
-    padding: 1rem;
-
   }
 
   .listings {
       grid-template-columns: repeat(2, 1fr);
-      padding: 1rem;
-  }
-
-  .featured {
-    padding: 1rem;
-
   }
 
   .featured-wrapper {
@@ -338,11 +316,6 @@ img {
 
   .featured .main {
       grid-column: span 2;
-  }
-
-  .footer{
-    padding: 1rem;
-
   }
 
   .footer .left-menu, .right-menu {
