@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  max-width: 100vw;
 }
 
 li {
@@ -18,11 +19,11 @@ a {
   color: #333;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .grey {
-  color:  #6d6d6d;
+  color: #6d6d6d;
 }
 
 .container {
@@ -135,6 +136,7 @@ html {
 
 .sort-bar i {
   font-size: 1.2rem;
+  width: 100%;
 }
 
 .sort-bar p {
@@ -144,106 +146,106 @@ html {
 
 /* Listings */
 .listings {
-    padding: 1rem 4rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+  width: 100%;
+  padding: 1rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 .listings .card {
-    max-width: 300px;
-    width: 100%;
-    font-size: .9rem;
+  max-width: 300px;
+  width: 100%;
+  font-size: 0.9rem;
 }
 
 .listings .card-title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .listings img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .listings p {
-    padding-bottom: 4px;
+  padding-bottom: 4px;
 }
 
-
 img {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 /* Listings End */
 
 /* Featured */
 .featured {
-    width: 100%;
-    padding: 1rem 4rem;
-    
+  width: 100%;
+  padding: 1rem 4rem;
 }
 
 .featured .title {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .featured h1 {
-    border-bottom: 4px solid #ff385c;
-    display: inline;
+  border-bottom: 4px solid #ff385c;
+  display: inline;
 }
 
 .featured-wrapper {
-    --gap: 1rem;
-    --num-cols: 5;
-    --row-height: 200px;
+  --gap: 1rem;
+  --num-cols: 5;
+  --row-height: 200px;
 
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
 }
 
 .featured img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .featured .main {
-    grid-column: span 3;
-    grid-row: span 2;
+  grid-column: span 3;
+  grid-row: span 2;
 }
 
 /* Featured End */
 
 /* Footer */
 .footer {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #eeeeee;
-    padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eeeeee;
+  padding: 1rem 4rem;
 }
 
-.footer .left-menu, .right-menu {
-    display: flex;
+.footer .left-menu,
+.right-menu {
+  display: flex;
 }
 
 .footer .left-menu li {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 .footer .right-menu li {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .center {
-    display: flex;
+  display: flex;
 }
 
 .center a {
-    margin: auto;
-    font-size: 2rem;
+  margin: auto;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -260,7 +262,6 @@ img {
     border-bottom: none;
     padding: 1rem;
   }
-  
 
   .sort-bar {
     padding: 1rem;
@@ -303,9 +304,8 @@ img {
   }
 
   .listings {
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
-
 }
 @media screen and (max-width: 550px) {
   /* Top Bar */
@@ -316,44 +316,37 @@ img {
     padding: 1rem;
   }
 
-  .sort-bar{
-    font-size: xx-small;
+  .sort-bar {
+    display: none;
   }
 
   .navbar {
     padding: 1rem;
-
   }
 
   .listings {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .featured {
     padding: 1rem;
-
   }
 
   .featured-wrapper {
-      --gap:1rem;
-      --num-cols:2;
+    --gap: 1rem;
+    --num-cols: 2;
   }
 
   .featured .main {
-      grid-column: span 2;
+    grid-column: span 2;
   }
 
-  .footer{
+  .footer {
     padding: 1rem;
-
   }
 
-  .footer .left-menu, .right-menu {
-      flex-direction: column;
+  .footer .left-menu,
+  .right-menu {
+    flex-direction: column;
   }
 }
-
-
-
-
-
