@@ -316,6 +316,10 @@ img {
     padding: 1rem;
   }
 
+  .sort-bar{
+    font-size: xx-small;
+  }
+
   .navbar {
     padding: 1rem;
 
@@ -323,7 +327,6 @@ img {
 
   .listings {
       grid-template-columns: repeat(2, 1fr);
-      padding: 1rem;
   }
 
   .featured {
