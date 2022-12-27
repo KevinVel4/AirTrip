@@ -251,11 +251,19 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 16px;
+    padding: 1rem;
   }
 
   .navbar {
     grid-template-columns: repeat(2, 1fr);
     border-bottom: none;
+    padding: 1rem;
+  }
+  }
+
+  .sort-bar {
+    padding: 1rem;
   }
 
   .navbar .search {
@@ -304,6 +312,13 @@ img {
   .top-bar .intro,
   p {
     font-size: 0.8rem;
+    margin-top: 16px;
+    padding: 1rem;
+  }
+
+  .navbar {
+    padding: 1rem;
+
   }
 
   .listings {
@@ -329,7 +344,7 @@ img {
     padding: 1rem;
 
   }
-  
+
   .footer .left-menu, .right-menu {
       flex-direction: column;
   }
