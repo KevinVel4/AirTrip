@@ -308,6 +308,12 @@ img {
 
   .listings {
       grid-template-columns: repeat(2, 1fr);
+      padding: 1rem;
+  }
+
+  .featured {
+    padding: 1rem;
+
   }
 
   .featured-wrapper {
@@ -319,6 +325,11 @@ img {
       grid-column: span 2;
   }
 
+  .footer{
+    padding: 1rem;
+
+  }
+  
   .footer .left-menu, .right-menu {
       flex-direction: column;
   }
