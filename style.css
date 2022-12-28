@@ -288,8 +288,8 @@ img {
   }
 
   .nav-menu li {
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: 14px;
+    padding-left: 8px;
   }
 
   .mobile {
@@ -324,6 +324,7 @@ img {
 
   .sort-bar {
     width: 100%;
+    display: flex;
   }
 
   .navbar {
