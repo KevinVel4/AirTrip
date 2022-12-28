@@ -328,7 +328,7 @@ img {
 
   .listings {
     grid-template-columns: repeat(2, 1fr);
-    padding: 16px 40px;
+    padding: 16px;
   }
 
   .featured {
