@@ -308,20 +308,13 @@ img {
   text {
     font-size: 0.8rem;
     margin-top: 16px;
-    padding: 1rem;
+    padding: 16px;
   }
 
   .card-title{
     display: flex;
     align-items: center;
     margin-top: 8px;
-  }
-
-  p{
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin: 0;
   }
 
   .sort-bar {
@@ -335,7 +328,7 @@ img {
 
   .listings {
     grid-template-columns: repeat(2, 1fr);
-    padding: 16px 40px;
+    padding: 16px ;
   }
 
   .featured {
