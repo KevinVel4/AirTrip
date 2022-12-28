@@ -126,7 +126,7 @@ html {
 .sort-bar {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 16px;
   width: 100%;
   color: #5e5e5e;
 }
