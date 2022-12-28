@@ -305,7 +305,7 @@ img {
 @media screen and (max-width: 550px) {
   /* Top Bar */
   .top-bar .intro,
-  p {
+  text {
     font-size: 0.8rem;
     margin-top: 16px;
     padding: 1rem;
@@ -315,6 +315,13 @@ img {
     display: flex;
     align-items: center;
     margin-top: 8px;
+  }
+
+  p{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 
   .sort-bar {
@@ -328,7 +335,7 @@ img {
 
   .listings {
     grid-template-columns: repeat(2, 1fr);
-    padding: 16px;
+    padding: 16px 40px;
   }
 
   .featured {
