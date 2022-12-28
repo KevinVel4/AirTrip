@@ -127,6 +127,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
+  width: 100%;
   color: #5e5e5e;
 }
 
@@ -270,7 +271,9 @@ img {
   }
 
   .sort-bar {
-    padding: 1rem;
+    width: 100%;
+    padding-right: 1rem;
+    order: 3;
   }
 
   .navbar .search {
@@ -284,24 +287,8 @@ img {
     max-width: 100%;
   }
 
-  .nav-menu {
-    position: fixed;
-    left: -100%;
-    background-color: #fff;
-    flex-direction: column;
-    top: 80px;
-    height: 100%;
-    width: 100%;
-    transition-duration: 0.3s;
-    padding-top: 1rem;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
   .nav-menu li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
   }
 
@@ -336,7 +323,7 @@ img {
   }
 
   .sort-bar {
-    display: none;
+    width: 100%;
   }
 
   .navbar {
@@ -345,6 +332,7 @@ img {
 
   .listings {
     grid-template-columns: repeat(2, 1fr);
+    padding: 16px 40px;
   }
 
   .featured {

@@ -44,10 +44,7 @@
                         <a href="#popular" class="nav-link">Popular</a>
                     </li>
                 </ul>
-                <div onclick="mobileMenu()" class="mobile">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
+            </div>    
         </div>
         <!-- End Navbar -->
 
@@ -408,18 +405,5 @@
 
   <!-- Container End -->
 </div>
-<script>
-  const menuBtn = document.querySelector('.mobile');
-  const navMenu = document.querySelector('.nav-menu');
-
-  const mobileMenu = () => {
-    menuBtn.classList.toggle('active');
-    navMenu.classList.toggle('active');
-  };
-
-  const closeMenu = () => {
-    navMenu.classList.toggle('active');
-  };
-</script>
 </body>
 </html>
