@@ -178,6 +178,12 @@ img {
   border-radius: 15px;
 }
 
+.card__price--normal{
+  text-decoration: line-through;
+  padding-right: 6px;
+  color: #bfbfbf;;
+}
+
 /* Listings End */
 
 /* Featured */
@@ -314,6 +320,19 @@ img {
     font-size: 0.8rem;
     margin-top: 16px;
     padding: 1rem;
+  }
+
+  .card-title{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  p{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 
   .sort-bar {
